@@ -1,6 +1,5 @@
 const { City } = require('../models')
 const { Op } = require('sequelize')
-const { client } = require('../elastic')
 
 class CityController {
   static searchCity (req, res, next) {
